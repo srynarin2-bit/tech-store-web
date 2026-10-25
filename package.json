@@ -6,9 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "db:generate": "prisma generate",
-    "postinstall": "prisma skills sync || exit 0"
+    "lint": "eslint"
+   
   },
   "dependencies": {
     "@prisma/client": "^7.10.1",
